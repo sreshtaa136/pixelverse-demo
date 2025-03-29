@@ -3,6 +3,9 @@
 import AllScreenSec from "@/components/AllScreenSec";
 import VideoSec from "@/components/VideoSec";
 import { motion, useScroll } from "motion/react";
+import { Jersey_20 } from "next/font/google";
+
+const jersey = Jersey_20({ weight: "400", subsets: ["latin"] });
 
 export default function Home() {
   const { scrollYProgress } = useScroll();
@@ -21,7 +24,7 @@ export default function Home() {
         className="navbar bg-base-300 shadow-sm sticky top-0 z-20 flex lg:justify-end px-8"
       >
         <div className="flex justify-between items-center md:w-[100%] lg:w-[53.5%]">
-          <a className="text-4xl jersey-20-regular">PIXELVERSE</a>
+          <a className={`text-4xl ${jersey.className}`}>PIXELVERSE</a>
           <ul className="menu menu-horizontal gap-5 md:text-[14px] lg:text-[16px]">
             <li className="border-1 rounded-md border-black  hover:bg-black hover:text-white">
               <a href="#videos">Features</a>
