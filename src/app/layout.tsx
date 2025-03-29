@@ -1,11 +1,6 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Jersey_20 } from "next/font/google";
+import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-
-const jersey = Jersey_20({
-  subsets: ["latin"],
-  weight: "400", 
-});
 
 const geistSans = Geist({
   variable: "--font-geist-sans",

@@ -46,7 +46,7 @@ const AuthContent = () => {
         <strong>sessions managed</strong> automatically.
       </p>
       <p className={`mt-2 ${bodyStyle}`}>
-        In the demo, you'll see how a user can:
+        In the demo, you will see how a user can:
       </p>
       <ul className={`mt-3 list-disc list-inside ${bodyStyle}`}>
         <li>create an account</li>

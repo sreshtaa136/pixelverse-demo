@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 const AllScreenSec = () => {
   return (
     <section className="bg-secondary rounded-4xl h-full overflow-hidden mb-20 p-10">
